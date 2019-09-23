@@ -2,9 +2,10 @@
 # environment
 
 avi_credentials:
-  controller: 10.10.25.42
+  controller: 10.10.24.129
   username: admin
-  password: "{{avi_password}}"
+#  password: "{{avi_password}}"
+  password: admin@123
   api_version: 17.2.7
 
 # all apps use the same backend servers
